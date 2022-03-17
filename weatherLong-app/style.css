@@ -1,0 +1,153 @@
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+
+#form{
+    margin-top: 100px;
+text-align: center;
+}
+
+
+form input{
+    border-radius: 4px;
+    padding:8px;
+    border: none;
+    background-color: rgba(38, 136, 248, 0.226);
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+form input[type=submit]{
+ 
+    /* color:rgb(126, 19, 233) ; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.weather{
+    border: none;
+    border-radius: 20px;
+margin: 10px auto;
+width: 400px;
+background-color: aquamarine;
+text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clouds{
+    text-align: center;
+    font-size: 28px;
+}
+ #img{
+    width: 70px;
+
+}
+
+#mid{
+    font-size: 25px;
+}
+
+.flex{
+    padding: 15px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.max{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+p span.orange{
+   color: orange;
+}
+p span.green{
+    color: green;
+ }
+
+ p span.red{
+    color: red;
+ }
+
+.min{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#name{
+    font-size: 25px;
+    padding: 5px 0;
+}
+#country{
+font-size: 25px;
+padding: 5px 0 25px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .btn-grad {background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%)}
+ .btn-grad {
+   
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+  
+    
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
